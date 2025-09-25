@@ -3,8 +3,10 @@ members = [
     "assert-owner",
     "common",
     "dex/crank",
-    "dex/permissioned",
+#    "dex/permissioned",
 ]
 exclude = [
-    "dex",
+    "dex/tests",
+    "dex/fuzz",
+    "dex/permissioned"
 ]
